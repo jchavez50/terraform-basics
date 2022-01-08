@@ -2,7 +2,16 @@
 **/.terraform/*
 
 # .tfstate files
-*.tfstate
-*.tfstate.*
-*.terraform.lock.hcl
+*/.tfstate
+*/.tfstate.*
+*/.terraform.tfstate.backup
+
 .DS_Store
+
+# .terrform.lock
+*.terraform.lock.hcl
+
+# exclude all .tfvars files 
+*.tfvars
+
+
